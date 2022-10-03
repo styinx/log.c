@@ -13,4 +13,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR})
 include_directories(src)
 
 # Build the library
-add_library(logc STATIC source/log.c)
+add_library(logc STATIC src/log.c)
